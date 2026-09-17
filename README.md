@@ -1,16 +1,67 @@
-# React + Vite
+# ⚛️ React Context API Learning
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React practice project focused on understanding and implementing the **Context API** for sharing data between components without passing props through every level.
 
-Currently, two official plugins are available:
+## 🚀 About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project demonstrates how React components can share common data using **Context API**.
 
-## React Compiler
+The project includes reusable components such as **Button** and **Card**, along with Context API implementation to manage and access shared data.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+- ⚛️ React
+- ⚡ Vite
+- 🟨 JavaScript
+- 🎨 CSS
+- 🔗 React Context API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📚 Concepts Used
+
+- ⚛️ React Components
+- 📦 Component Reusability
+- 🔄 Props
+- 🧩 Context API
+- 🌐 `createContext()`
+- 🔌 `useContext()`
+- 🏗️ Context Provider
+- 🧱 Component Structure
+- 📁 Folder Organization
+
+## 📁 Folder Structure
+
+```text
+REACT-Context-Api-Learning/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   ├── button/
+│   │   │   └── Button.jsx
+│   │   │
+│   │   └── card/
+│   │       └── Card.jsx
+│   │
+│   ├── ContextApi.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+└── vite.config.js
+```
+
+
+
+## 🔗 Connect with Me 💼
+
+[LinkedIn](https://www.linkedin.com/in/iam-subash/)
+
+
